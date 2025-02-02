@@ -226,7 +226,7 @@ export const Carousel: FC<
                         : carouselBtnDark,
                 ]}
                 role="button"
-                aria-description="Previous Review"
+                aria-label="Previous Review"
                 className={clsx(
                     carouselBtnClassName,
                     carouselBtnLeftClassName,
@@ -269,7 +269,7 @@ export const Carousel: FC<
                         : carouselBtnDark,
                 ]}
                 role="button"
-                aria-description="Next Review"
+                aria-label="Next Review"
                 className={clsx(
                     carouselBtnClassName,
                     carouselBtnRightClassName,
